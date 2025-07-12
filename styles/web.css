@@ -243,5 +243,24 @@ header{
                 
                 
             }
+            .seventh-page{
+                display: flex;
+                gap: auto;
+            }
+            .your-form{
+                display: block;
+            }
+            .title{
+                padding: 150px;
+                width: 50%;
+            
+            }
+            .your-form input[type="text"],.your-form input[type="email"],.your-form textarea[type="textarea"]{
+                height: 52px;
+                width: 100%;
+                margin:19px;
+                display: block;
+                padding-top: 32px;
+            }
 
 
