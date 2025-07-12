@@ -1,12 +1,16 @@
 
 
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 65px;
   font-style: bold;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 nav{
     display: flex;
@@ -15,40 +19,89 @@ nav{
 }
 .banner-logo{
     color: #4E47FF;
+    margin-top: 50px;
+    font-size: 34px;
+    width:99px;
+    height:51px ;
+    margin-right: 1191px;
+
+
 }
 .banner-button{
     color:white;
     background-color:#4E47FF ;
-    font-weight: 132px;
+    background-size: 746px;
+    padding: 36px 12px;
+    border-radius: 10px;
+    margin-top: 51.5px;
+    width: 132px;
+    height: 48px;
+    margin-bottom: 237px;
     
     
 }
 .banner-body{
     text-align: center;
+    margin-top: 309px;
+    margin-bottom: 237px;
+    margin-left: 267.5px;
+    margin-right: 267.5px;
+    align-items: center;
+
 }
 header{
     background-image: url(../Assets/Hero-bg.png);
     background-size: 1140px;
     background-position: 100%;
+    margin-top: 309px;
+    margin-bottom: 237px;
+    margin-left: 267.5px;
+    margin-right: 267.5px;
+    align-items: center;
+}
+.banner-text{
+    
+    font-size: 65px;
 }
 .see-action{
-    margin: 150px;
+    margin-left: 141px;
+}
+.action-button{
+    padding: 36px 12px;
+    width: 229px;
+    height: 48px;
+    background-color: #4E47FF;
+    font: 16px;
+    color: white;
 }
 .mini-image{
-    margin: 0 auto;
-    padding: 25px 30px;
+    margin-left: 878px;
+    border-radius: 24px;
+    
 }
 .secound-page{
     display: flex;
+    margin-left:141px; 
+    margin-right: 782px; ;
 }
 .image-wc{
     margin:150px;
+    
+    margin-left:878px ;
+    margin-right:159px ;
 }
 .action-title{
-    font: 42px bold;
+    font-size: 42px;
+    width: 517px;
+    height: 49px;
+}
+.third-page{
+    align-items: center;
 }
 .action-description{
-    text-decoration-color: #252432;
+    font-size: 24px;
+    color: #252432;
+    
 
 }
 .third-description{
@@ -113,6 +166,46 @@ header{
             .third-page{
                 margin-left: 300px;
                 margin-right: 300px;
+            }
+            .picture-avatar{
+                display: flex;
+            }
+            .fifth-page-index{
+                display: flex;
+                gap: 20px;
+                
+                
+            }
+            .fifth-page-index{
+               justify-content: center;
+               margin-top: 50px;
+               font-size: bold;
+            
+            
+                
+            }
+            .icon-main{
+                display: flex;
+                padding: 20px;
+            }
+            .icon1{
+                width: 300px;
+                
+                padding: 50px;
+                margin: 20px;  
+            }
+            .fifth-page{
+                margin-left: 151px;
+                margin-left: 149px;
+            }
+            .sixth-page{
+                margin-left: 150px;
+                margin-right: 150px;
+                margin-top: 261;
+                margin-bottom: 71px;
+            }
+            .sixth-page-title{
+                justify-content: center;
             }
 
 
