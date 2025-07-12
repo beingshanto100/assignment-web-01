@@ -28,13 +28,15 @@ nav{
 }
 header{
     background-image: url(../Assets/Hero-bg.png);
-    background-size: auto;
+    background-size: 1140px;
+    background-position: 100%;
 }
 .see-action{
     margin: 150px;
 }
 .mini-image{
     margin: 0 auto;
+    padding: 25px 30px;
 }
 .secound-page{
     display: flex;
@@ -55,24 +57,62 @@ header{
     font-size: larger;
     
 }
-.followers{
-    display: flex;
 
-    
-}
-.follow{
-    display: flex;
-    justify-content: center;
-    gap: 158px;
-    
-    
-}
-.third-page{
-    text-align: center;
-}
-.followers-number{
-    text-align: center;
-    height: 97px;
-    width: 162px;
-    
-}
+.container{
+    background-color: #e6e6fa;
+            border-radius: 15px;
+            padding: 30px 40px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 90%;
+            padding: 25px 30px;
+        }
+.container h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-size: 1.5em;
+            margin-bottom: 25px;
+
+        }
+ .stats-grid {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+.stat-item {
+           display:flex;
+            min-width: 150px; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+.stat-item .number {
+            color: #5c62ec; 
+            font-size: 3.5em;
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 5px;
+        }
+.stat-item .label {
+            color: #555;
+            font-size: 1em;
+            font-weight: 400;
+            white-space: nowrap; 
+        }
+        .stat-item .number {
+                font-size: 3em;
+            }
+            .stat-item .label {
+                font-size: 0.9em;
+            }
+
+            .third-page{
+                margin-left: 300px;
+                margin-right: 300px;
+            }
+
+
